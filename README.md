@@ -2,7 +2,7 @@
 
 #### task summary:
 create a react table formed from a selectable json file
-functionality:
+##### functionality:
 + pagination
 + filtration
 + adding data
