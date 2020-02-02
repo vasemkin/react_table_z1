@@ -66,7 +66,7 @@ export default class Content extends React.Component{
     }
 
     addUser = (generateJSON) => {
-        this.state.data.push(generateJSON);
+        this.state.data.unshift(generateJSON);
     }
 
 
@@ -129,8 +129,6 @@ export default class Content extends React.Component{
                                 </div>
                             </div>
                         
-                            
-                        <p>{JSON.stringify(this.state.data)}</p>
                         </div>
                     </div>
                     : <h3 className="floating">loading...</h3>

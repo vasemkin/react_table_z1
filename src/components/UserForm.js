@@ -118,7 +118,7 @@ export default class UserForm extends React.Component {
             <form onSubmit={this.handleSubmit} className="user-form form-inline">
               <div className="form-group">
                 <label className="form-control-plaintext form-margin"> id:  </label>
-                <input type="text" className="form-control form-margin" placeholder="1r" value={this.state.id} onChange={this.handleId} />  
+                <input type="text" className="form-control form-margin" placeholder="1" value={this.state.id} onChange={this.handleId} />  
               </div>
               
               <div className="form-group">
